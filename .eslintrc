@@ -1,0 +1,16 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": ["plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+    "parserOptions": { "ecmaVersion": 2016, "sourceType": "module" },
+    "rules": {
+      "no-var": "error",
+      "@typescript-eslint/no-empty-interface": "warn",
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ]
+    }
+  }
+  
